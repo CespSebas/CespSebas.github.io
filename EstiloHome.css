@@ -10,3 +10,10 @@ footer {
     background-color: rgb(163, 146, 139);
     color: rgb(255, 255, 255);
 }
+h1{
+    font-size: 45px;
+    color: white;
+}
+body{
+    background-color: rgba(118, 215, 196);
+}
