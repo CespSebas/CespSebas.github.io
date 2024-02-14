@@ -1,0 +1,12 @@
+header{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(163, 146, 139);
+    color: rgb(255, 255, 255);
+}
