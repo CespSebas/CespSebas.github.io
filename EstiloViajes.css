@@ -1,0 +1,83 @@
+.Contenido {
+    background-image: url(HomeGastronomia.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 800px;
+    padding: 70px;
+    background-position: center;
+    box-sizing: content-box;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin: auto;
+    opacity: 0.8;
+
+
+}
+
+body {
+    background-color: rgb(228, 207, 190);
+}
+
+.texto {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+
+}
+
+h2,
+h4 {
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color: rgb(151, 54, 59);
+}
+
+.tabla {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    font-size: 23px;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+footer {
+    text-align: right;
+    padding: 10px;
+    background-color: rgb(151, 54, 59);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h2.titNav{
+
+    background-color: rgb(151, 54, 59);
+
+}
+li:hover {
+    
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(209, 121, 121);
+    border-radius: 10px;
+    
+}
+li{
+    display: inline;
+    color: black;
+    margin-left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+nav {
+    background-color: rgb(151, 54, 59, 0.5);
+    padding: 20px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+
+}
