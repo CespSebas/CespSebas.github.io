@@ -1,0 +1,61 @@
+header {
+    background-color: rgb(151, 54, 59);
+}
+
+h2,
+h4 {
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.texto {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(151, 54, 59);
+    position: absolute;
+    width: 98%;
+
+}
+
+.ImgGeo {
+    display: inline;
+    margin-right: 60px;
+    text-align: center;
+
+}
+
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    background-color: rgba(151, 54, 59);
+    color: white;
+}
+
+body{
+    background-color: rgb(228, 207, 190);
+}
+
+div{
+    background-color: rgba(151, 54, 59, 0.5);
+}
+
+.links{
+    text-align: right;
+}
+
+h3{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: rgb(151, 54, 59);
+}
