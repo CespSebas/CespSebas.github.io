@@ -48,7 +48,7 @@ footer {
     text-align: right;
     padding: 10px;
     background-color: rgb(151, 54, 59);
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -85,4 +85,10 @@ nav {
     .Contenido {
         padding: 2%;
     }
+
+  footer {
+        text-align: center;
+        padding: 5px;
+    }
+}
 }
