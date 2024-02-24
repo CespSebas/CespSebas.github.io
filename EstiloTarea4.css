@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+}
+
+.contenedor {
+    position: relative;
+    height: 284px;
+}
+
+.logo {
+    position: relative;
+    display: block;
+    padding: 20px;
+    margin-top: px;
+}
+
+body {
+    font-size: 0.90em;
+    width: 80%;
+    margin: auto;
+
+}
+
+.text {
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+.sidebar {
+    background-image: url("lexie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    border-radius: 8px;
+}
+
+
+.Historia {
+    margin-bottom: 26PX;
+    color: #7fc4ce;
+    font-size: 30px;
+    display: block;
+    border-bottom: solid;
+    text-align: center;
+}
+
+.Articulo {
+    margin-bottom: 26PX;
+    color: #0e344b;
+    font-size: 30px;
+    /* display: block;*/
+    border-bottom: solid;
+    text-align: center;
+    width: 100%;
+}
+
+.ArticuloDos {
+    margin-bottom: 26PX;
+    color: #020202;
+    font-size: 30px;
+    display: block;
+    border-bottom: solid;
+    text-align: center;
+}
+
+h4 {
+    margin-bottom: 26PX;
+    color: #0e344b;
+    font-size: 20px;
+    display: block;
+    border-bottom: solid;
+    text-align: left;
+}
+
+nav {
+    height: 40px;
+    width: 100%;
+    list-style: none;
+    padding: 10px;
+}
+
+
+ul#nav li a {
+    padding: 9px 25px 10px 15px;
+    font-family: 100% Arial, Helvetica, sans-serif;
+    color: #7fc4ce;
+    text-shadow: 1px 1px #2b3133;
+    text-decoration: none;
+}
+
+
+li {
+    padding-left: 10px;
+    list-style: none;
+    float: right;
+    border-radius: 8px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    position: relative;
+    margin-right: 10px;
+}
+
+li:hover {
+    color: #2b3133;
+    border-bottom: 1px solid #2b3133;
+}
+
+ul#nav li a:hover {
+    color: #0e344b;
+    text-shadow: none;
+}
+
+header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-color: #0e344b;
+    border-radius: 8px;
+    position: relative;
+    height: 284px;
+    margin-left: 10px;
+
+}
+
+aside {
+    width: 300px;
+    margin: 10px;
+    text-align: justify;
+    display: inline-block;
+    box-sizing: content-box;
+    padding: 15px;
+
+}
+
+main {
+    width: 1100px;
+    height: auto 0;
+    box-sizing: border-box;
+    float: right;
+    background-color: rgb(255, 255, 255);
+}
+
+article {
+    text-align: justify;
+    width: 100%;
+    height: auto;
+    line-height: 2em;
+
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #0e344b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+   
+
+}
+
+#huella {
+    margin-right: 30px !important;
+}
+
+.txtF {
+    display: inline;
+    margin-right: 80px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .nav {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    main { 
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    article{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    aside{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    footer{
+        width: 100%;
+        height: auto;
+        display: block;
+
+    }
+
+
+
+}
