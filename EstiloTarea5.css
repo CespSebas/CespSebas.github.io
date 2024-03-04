@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.header {
+    background-image: url(img/wallpaper2.jpg);
+    width: 100%;
+    height: 303px;
+
+}
+
+
+main h2 {
+    color: #385072;
+}
+
+main h5 {
+    color: #CB384B;
+}
+
+.header h1 {
+    text-align: center;
+    color: white;
+}
+
+.HeaderDesc {
+    text-align: center;
+    color: #D7434F;
+}
+
+.navbar {
+
+    background-color: #BBACAF;
+    padding: 20px;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.navbar a:hover {
+    background-color: #DAD4E0;
+    color: #58699d;
+}
+
+.side {
+    width: 25%;
+    float: left;
+    box-sizing: content-box;
+    padding: 32px;
+    text-align: justify;
+    margin: 0;
+
+}
+
+.article {
+    width: 55%;
+    float: left;
+    box-sizing: content-box;
+    padding: 40px;
+    border-left: 10px solid #BBACAF;
+    text-align: justify;
+    margin: 0;
+}
+
+.fakeimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+
+
+}
+
+.fakeimg img {
+    width: auto;
+    max-width: 100%;
+    min-height: 303px;
+    margin: 0;
+    background-color: #BBACAF;
+    padding: 10px;
+}
+
+
+.article img {
+    width: 60%;
+    max-width: 100%;
+    min-height: 303px;
+    margin: 0;
+    background-color: #BBACAF;
+    padding: 10px;
+}
+
+.toursnews {
+    display: flex;
+    text-align: center;
+    background-color: #BBACAF;
+    margin: 0;
+    width: 100%;
+    height: 66px;
+
+}
+
+.toursnews a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 0px 10px;
+
+
+}
+
+.toursnews img {
+    border-radius: 24px;
+    padding: 3px;
+
+}
+
+.toursnews:hover {
+    background-color: #DAD4E0;
+}
+
+.toursnews:hover a {
+    color: #BBACAF;
+}
+
+
+.footer {
+    display: flex;
+    background-image: url(Imagenes/footer.jpg);
+    color: white;
+    width: 100%;
+    bottom: 0;
+
+    justify-content: center;
+}
+
+.footer h2 {
+    display: flex;
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        padding: 10px;
+        text-align: center;
+        padding-bottom: 1px;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+
+
+    .side,
+    .article {
+        width: 100%;
+        padding: 20px;
+        float: none;
+        box-sizing: border-box;
+    }
+
+    .article {
+        border-left: none;
+    }
+
+    .header {
+        min-height: 300px;
+        background-position: center;
+    }
+
+    .fakeimg img {
+        max-width: 300px;
+        min-height: 300px;
+    }
+
+    footer {
+        position: static;
+        margin-top: 20px;
+    }
+}
