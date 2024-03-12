@@ -31,3 +31,22 @@ main{
 h3{
     color: #619de7;
 }
+
+@media screen and (max-width: 600px) {
+    .header {
+        min-height: 300px;
+        background-position: center;
+    }
+
+    footer {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .main {
+        width: 100%;
+        padding: 20px;
+        float: none;
+        box-sizing: border-box;
+    }
+}
