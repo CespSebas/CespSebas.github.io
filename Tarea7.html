@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sebastian Cespedes" />
+    <link rel="stylesheet" type="text/css" href="../CSS/EstiloCalculadora.css" />
+    <script src="../JS/LogicaCalculadora.js"></script>
+
+    <title>Tarea 7 Calculadoras</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Calculadoras</h1>
+
+    </header>
+
+    <main id="site_content">
+
+        <article class="tablaArticulo">
+
+            <form name="calculator1" class="calc1">
+                <h3>Calculadora de Conversión de Temperatura
+                </h3>
+                <p>Ingresar temperatura en celsius</p>
+                <input type="textfield" name="ans" value="">
+                <br>
+                <p>Resultado</p>
+                <input type="textfield" name="res" value="">
+                <br>
+
+                <select class="memoria" name="memoria" id="mem">
+                    <option value="" selected> Calculos realizados</option>
+
+                </select>
+
+                <br>
+                <input type="button" value="M"
+                    onclick="regMemoriaLocal(document.calculator.ans.value, document.calculator.res.value)">
+                    <input type="button" value="Convertir a Fahrenheit" onclick="convertirFahrenheit('7')">
+
+                    <input type="button" value="Convertir a Kelvin" onclick="convertirKelvin('4')">
+
+                 
+          
+            </form>
+
+
+            <form name="calculator2" class="calc2">
+                <h3>Calculadora de Conversión de Distancia
+                </h3>
+                <p>Ingresar la distancia en kilometros</p>
+                <input type="textfield" name="ans" value="">
+                <br>
+                <p>Resultado:</p>
+                <input type="textfield" name="res" value="">
+                <br>
+
+                <select class="memoria" name="memoria" id="mem">
+                    <option value="" selected> Calculos realizados</option>
+
+                </select>
+                
+                <br>
+                <input type="button" value="M"
+                    onclick="regMemoriaLocal(document.calculator.ans.value, document.calculator.res.value)">
+                    <input type="button" value="Convertir a Millas" onclick="convertirAMillas('9')">
+
+                    <input type="button" value="Convertir a Metros" onclick="convertirAMetros('3')">
+            </form>
+
+            <form name="calculator3" class="calc3">
+                <h3>Calculadora de Índice de Masa Corporal (IMC)
+                </h3>
+                <p>Ingresar peso en kilogramos: </p>
+                <input type="textfield" name="peso" value="">
+                <br>
+                <p>Ingresar su altura en metros: </p>
+                <input type="textfield" name="altura" value="">
+                <br>
+                <p>Resultado: </p>
+                <input type="textfield" name="resultado" value="">
+
+                <select class="memoria" name="memoria" id="mem">
+                    <option value="" selected> Calculos realizados</option>
+
+                </select>
+                <br>
+                <input type="button" value="M"
+                    onclick="regMemoriaLocal(document.calculator.ans.value, document.calculator.res.value)">
+                   
+                    <input type="button" value="Calcular IMC" onclick="calcularIMC(document.calculator3.peso.value, document.calculator3.altura.value)">
+
+                     
+            </form>
+
+        </article>
+
+
+
+
+    </main>
+
+
+
+
+
+
+    <footer class="footer">
+        <h2><small>&copy; Copyright 2024 - Practica calculadoras </small></h2>
+        <p></p>
+    </footer>
+
+</body>
+
+</html>
