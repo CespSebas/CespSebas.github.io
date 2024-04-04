@@ -1,0 +1,8 @@
+.fotoderecha{
+ float: left;
+ display: block;
+ margin-left: 15px;
+ outline-style:  groove;
+ outline-color: bisque;
+  
+}
