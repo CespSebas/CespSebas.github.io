@@ -1,0 +1,224 @@
+@import "../CSS/Nav.css";
+@import "../CSS/Cards.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-image: url(../Img/Headers/PruebaHeader.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    justify-content: center;
+    opacity: 1;
+
+}
+
+
+body {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    background-color: #D9B07E !important;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+h1 {
+    font-size: 55px !important;
+    color: rgb(255, 255, 255) !important;
+    text-align: center !important;
+
+}
+
+.side {
+    background-color: white;
+    float: right;
+    display: inline;
+    width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-top: 47px;
+}
+
+.HeaderDesc {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.iconoheader {
+    width: 40px;
+    display: inline-table;
+    vertical-align: top;
+    margin: 15px;
+}
+
+.container-cart-icon {
+    /* Logo de Carrito y Usuario */
+    display: flex;
+    margin-right: 20px;
+    float: right;
+    opacity: 1;
+}
+
+strong{ 
+    float: right;
+}
+
+
+
+/* Offcanvas */
+
+ 
+.offcanvas-body {
+    padding: 20px;
+}
+
+.productos-cont {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid rgba(237, 163, 92, 0.9);
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.product-name {
+    width: 30%;
+    font-size: 18px;
+}
+
+.price {
+    width: 30%;
+    font-size: 18px;
+}
+
+.quantity {
+    width: 15%;
+    font-size: 18px;
+}
+
+.total {
+    width: 25%;
+    font-size: 18px;
+}
+
+#precio,
+#cantidad,
+#totalidad {
+    font-size: 18px;
+}
+
+.productos {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 18px;
+}
+
+.productos span {
+    font-size: 18px;
+}
+
+.productos img {
+    width: 75px;
+    height: 100px;
+    margin: 10px;
+}
+
+
+button {
+    background-color: transparent
+}
+
+
+
+
+
+
+
+.footer {
+    background-color: #592F20;
+    color: #fff;
+    padding: 20px;
+    height: auto;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-section {
+    max-width: 300px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    /* Pantallas Medianas */
+    header {
+        width: 100%;
+        min-height: 150px;
+        background-position: center;
+    }
+
+
+    body {
+        width: 100%;
+        padding: 20px;
+        float: none;
+
+    }
+
+    footer {
+        position: relative;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .contenedor {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .side {
+        justify-content: center;
+        margin-bottom: 20px;
+        display: block;
+
+    }
+}

@@ -1,0 +1,30 @@
+
+.contenedor {
+padding: 50px;
+
+
+ .card{
+    margin-bottom: 50px;
+    box-shadow: 0  4px 6px rgba(0, 0, 0, 0.5) ;
+ }
+
+ .card-img-top{
+    height: 310px;
+    background-size: auto;
+    width: 240px;
+    margin: auto;
+ }
+
+ .card-title {
+    font-size: 30px;
+
+ }
+
+ .card-text{
+    margin-bottom: 10px;
+    line-height: 30px;
+    margin-bottom: 10px;
+ }
+
+}
+

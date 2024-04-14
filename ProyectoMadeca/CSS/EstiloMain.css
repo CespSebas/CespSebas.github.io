@@ -1,0 +1,241 @@
+@import "Nav.css";
+@import "Imagenes.css";
+@import "Cards.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-image: url(../Img/Headers/PruebaHeader.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    justify-content: center;
+    border-bottom: 4px solid #592F20;
+    opacity: 1;
+ 
+}
+
+body {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    background-color: #D9B07E !important;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+ 
+h1 {
+    font-size: 55px !important;
+    color: rgb(255, 255, 255) !important;
+    text-align: center !important;
+
+}
+
+.HeaderDesc {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.iconoheader {
+    width: 40px;
+    display: inline-table;
+    vertical-align: top;
+    margin: 15px;
+    
+}
+
+button{
+    background-color: transparent
+}
+
+.logo-container {     /* Logo de Carrito y Usuario */
+    display: flex;
+    margin-right: 20px;
+    float: right;
+    opacity: 1;
+}
+
+ 
+h3 {
+    font-size: 40px;
+    text-align: center;
+    color: #fff!important;
+    text-align: center !important;
+}
+
+ 
+
+h2{
+    color: #fff;
+}
+
+.carousel {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    /* Utilizamos flexbox para colocar los videos en línea */
+}
+
+.video-container iframe {
+    margin-right: 100px;
+
+}
+
+main {
+    background-color: bisque;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.info_clima{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+ 
+
+
+#search-container {
+    margin: 20px auto;
+    width: 600px;
+
+}
+
+#search-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #744f38;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+
+
+    .btnMostrar{
+        margin-right: 20px;
+        color: #592F20;
+        background-color: #D9B07E;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    .btnOcultar{
+        color: #592F20;
+        background-color: #D9B07E;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    
+  }
+
+.frase_tipos{
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+ 
+
+.tituloH {
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    background-color: #592F20;
+    color: #fff;
+    padding: 20px;
+    height: auto;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-section {
+    max-width: 300px;
+}
+
+.DivHistoria {
+    border-radius: 20px;
+    background-image: url(../Img/Local/frentefacebook.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#creador {
+    float: right;
+    margin-right: 15px;
+    color: white;
+}
+
+#pHistoria {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 25px;
+    color: white;
+}
+
+.fraseFinal {
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.divprovi {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 35px;
+}
+
+.gif {
+    width: 300px;
+    /* ajusta el ancho según tus necesidades */
+    height: 200px;
+    /* ajusta la altura según tus necesidades */
+    background-image: url('../Img/Gif/Got\ wood\ -\ Imgur.gif');
+    background-size: cover;
+    /* ajusta según sea necesario */
+    background-repeat: no-repeat;
+    /* asegúrate de que el gif no se repita */
+    margin: auto;
+
+}
+
