@@ -3,145 +3,145 @@ let carts = document.querySelectorAll('#cart-btn');
 let products = [
 	{
 		name: 'Linterna Recargable',
-		tag: '../Img/Productos/linterna2.PNG',
+		tag: '../Img/linterna2.PNG',
 		price: 3500,
 		inCart: 0
 	},
 	{
 		name: 'Alambre para Tendero',
-		tag: '../Img/Productos/alambreropa2.PNG',
+		tag: '../Img/alambreropa2.PNG',
 		price: 800,
 		inCart: 0
 	},
 	{
 		name: 'Picaporte con Cadena',
-		tag: '../Img/Productos/picaportecadena.PNG',
+		tag: '../Img/picaportecadena.PNG',
 		price: 1800,
 		inCart: 0
 	},
 	{
 		name: 'Aldaba Multimedida',
-		tag: '../Img/Productos/aldaba2.PNG',
+		tag: '../Img/aldaba2.PNG',
 		price: 1500,
 		inCart: 0
 	},
 	{
 		name: 'Bisagra Semicruva Multimedida',
-		tag: '../Img/Productos/bisagra invisible semicurva.PNG',
+		tag: '../Img/bisagra invisible semicurva.PNG',
 		price: 700,
 		inCart: 0
 	},
 	{
 		name: 'Bisagra Multimedida',
-		tag: '../Img/Productos/bisagra.PNG',
+		tag: '../Img/bisagra.PNG',
 		price: 1300,
 		inCart: 0
 	},
 	{
 		name: 'Llavin Puerta Diversidad en Colores',
-		tag: '../Img/Productos/llavinbronce1.PNG',
+		tag: '../Img/llavinbronce1.PNG',
 		price: 5500,
 		inCart: 0
 	},
 	{
 		name: 'Bisagra Mariposa',
-		tag: '../Img/Productos/bisagramariposa.PNG',
+		tag: '../Img/bisagramariposa.PNG',
 		price: 1500,
 		inCart: 0
 	},
 	{
 		name: 'Cadena Grapada',
-		tag: '../Img/Productos/cadena2.PNG',
+		tag: '../Img/cadena2.PNG',
 		price: 2000,
 		inCart: 0
 	},
 	{
 		name: 'Lentes de Proteccion',
-		tag: '../Img/Productos/lentes de proteccion.PNG',
+		tag: '../Img/lentes de proteccion.PNG',
 		price: 2500,
 		inCart: 0
 	},
 	{
 		name: 'Botas Industriales Bellota',
-		tag: '../Img/Productos/botasbellota.PNG',
+		tag: '../Img/botasbellota.PNG',
 		price: 7500,
 		inCart: 0
 	},
 	{
 		name: 'Cadena Tensa #5',
-		tag: '../Img/Productos/cadenagalvanizada.PNG',
+		tag: '../Img/cadenagalvanizada.PNG',
 		price: 2500,
 		inCart: 0
 	},
 	{
 		name: 'Candado Fanal Multimedida',
-		tag: '../Img/Productos/candadofanal.PNG',
+		tag: '../Img/candadofanal.PNG',
 		price: 2500,
 		inCart: 0
 	},
 	{
 		name: 'Cartel Señalización Escaleras',
-		tag: '../Img/Productos/cartelescalera.PNG',
+		tag: '../Img/cartelescalera.PNG',
 		price: 1500,
 		inCart: 0
 	},
 	{
 		name: 'Cartel Señalización Inflamable ',
-		tag: '../Img/Productos/cartelpeligroinflamable.PNG',
+		tag: '../Img/cartelpeligroinflamable.PNG',
 		price: 1500,
 		inCart: 0
 	},
 	{
 		name: 'Cartel Señalización Salida',
-		tag: '../Img/Productos/cartelsalida2.PNG',
+		tag: '../Img/cartelsalida2.PNG',
 		price: 1500,
 		inCart: 0
 	},
 	{
 		name: 'Candado de Seguridad',
-		tag: '../Img/Productos/candadosseguridadTriple.PNG',
+		tag: '../Img/candadosseguridadTriple.PNG',
 		price: 3200,
 		inCart: 0
 	},
 	{
 		name: 'Clavo Multimedida con Cabeza',
-		tag: '../Img/Productos/clavocabeza.PNG',
+		tag: '../Img/clavocabeza.PNG',
 		price: 90,
 		inCart: 0
 	},
 	{
 		name: 'Clavo Multimedida sin Cabeza ',
-		tag: '../Img/Productos/clavosincabeza.PNG',
+		tag: '../Img/clavosincabeza.PNG',
 		price: 90,
 		inCart: 0
 	},
 	{
 		name: 'Chaleco Seguridad',
-		tag: '../Img/Productos/chalecoseguridad.PNG',
+		tag: '../Img/chalecoseguridad.PNG',
 		price: 2500,
 		inCart: 0
 	},
 	{
 		name: 'Tornillo de Techo',
-		tag: '../Img/Productos/tornillotechopuntabroca.PNG',
+		tag: '../Img/tornillotechopuntabroca.PNG',
 		price: 75,
 		inCart: 0
 	},
 	{
 		name: 'Guante de Látex',
-		tag: '../Img/Productos/guantelatex.PNG',
+		tag: '../Img/guantelatex.PNG',
 		price: 2500,
 		inCart: 0
 	},
 	{
 		name: 'Guante de Construccion',
-		tag: '../Img/Productos/guantemetalico.PNG',
+		tag: '../Img/guantemetalico.PNG',
 		price: 2700,
 		inCart: 0
 	},
 	{
 		name: 'Jaladera para Gaveta',
-		tag: '../Img/Productos/jaladera.PNG',
+		tag: '../Img/jaladera.PNG',
 		price: 900,
 		inCart: 0
 	}
