@@ -285,6 +285,7 @@ function borraCarro(){
     // Eliminar todos los elementos secundarios del carrito
     while (carritoItems.hasChildNodes()) {
         carritoItems.removeChild(carritoItems.firstChild);
+	    limpiarLocalStorage();
     }
     
     // Opcional: Agregar un mensaje indicando que el carrito ha sido limpiado
