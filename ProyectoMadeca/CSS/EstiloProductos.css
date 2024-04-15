@@ -25,6 +25,75 @@ h1 {
 
 }
 
+/* Offcanvas */
+
+ 
+.offcanvas-body {
+    padding: 20px;
+}
+
+.productos-cont {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid rgba(237, 163, 92, 0.9);
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.product-name {
+    width: 30%;
+    font-size: 18px;
+}
+
+.price {
+    width: 30%;
+    font-size: 18px;
+}
+
+.quantity {
+    width: 15%;
+    font-size: 18px;
+}
+
+.total {
+    width: 25%;
+    font-size: 18px;
+}
+
+#precio,
+#cantidad,
+#totalidad {
+    font-size: 18px;
+}
+
+.productos {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 18px;
+}
+
+.productos span {
+    font-size: 18px;
+}
+
+.productos img {
+    width: 75px;
+    height: 100px;
+    margin: 10px;
+}
+
 .side {
     background-color: white;
     float: right;
