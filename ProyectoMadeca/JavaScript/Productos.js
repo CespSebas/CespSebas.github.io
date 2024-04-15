@@ -279,6 +279,22 @@ function payClicked() {
     limpiarLocalStorage();
 }
 
+function borraCarro(){
+	var carritoItems = document.getElementsByClassName("productos")[0];
+    
+    // Eliminar todos los elementos secundarios del carrito
+    while (carritoItems.hasChildNodes()) {
+        carritoItems.removeChild(carritoItems.firstChild);
+    }
+    
+    // Opcional: Agregar un mensaje indicando que el carrito ha sido limpiado
+    var mensaje = document.createElement("p");
+    mensaje.textContent = "El carrito de compra ha sido limpiado.";
+    carritoItems.appendChild(mensaje);
+	alert("Borrando el carrito");
+}
+
+
 
 onLoadCartNumbers();
 displayCart();
