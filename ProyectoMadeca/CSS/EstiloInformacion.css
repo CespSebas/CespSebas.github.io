@@ -152,6 +152,57 @@ p {
     margin: auto !important;
 }
 
+.creador-info {
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creador-info h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.creador-info p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #666;
+}
+
+.creador-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.creador-info a:hover {
+    text-decoration: underline;
+}
+
+.creador-info .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.creador-info .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
 
 
 
