@@ -133,6 +133,22 @@ section {
     transition: background-color 0.3s ease;
 }
 
+
+.btn-borrar {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #ff7f0e;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
 .btn-pagar:hover {
     background-color: #d66e0e;
 }
