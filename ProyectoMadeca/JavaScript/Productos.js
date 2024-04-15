@@ -291,7 +291,7 @@ function borraCarro(){
     var mensaje = document.createElement("p");
     mensaje.textContent = "El carrito de compra ha sido limpiado.";
     carritoItems.appendChild(mensaje);
-	alert("Borrando el carrito");
+	//alert("Borrando el carrito");
 }
 
 
