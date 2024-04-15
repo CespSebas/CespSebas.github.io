@@ -17,7 +17,7 @@ html {
 }
 
 header {
-    background-image: url(../Img/Headers/PruebaHeader.jpg);
+    background-image: url(../Img/PruebaHeader.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -194,7 +194,7 @@ main {
 
 .DivHistoria {
     border-radius: 20px;
-    background-image: url(../Img/Local/frentefacebook.jpg);
+    background-image: url(../Img/frentefacebook.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
