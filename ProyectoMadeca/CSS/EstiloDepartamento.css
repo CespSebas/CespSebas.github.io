@@ -128,3 +128,51 @@ table {
 .footer-section {
     max-width: 300px;
 }
+
+@media screen and (max-width: 768px) {
+    table {
+        overflow-x: auto;
+        display: block;
+        flex-wrap: nowrap;
+    }
+    th, td {
+        min-width: 100px;
+    }
+    header {
+        height: 200px;
+    }
+    
+    h1 {
+        font-size: 40px !important;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .HeaderDesc {
+        font-size: 20px;
+    }
+
+    .iconoheader {
+        width: 30px;
+    }
+
+    .logo-container {
+        margin-right: 10px;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    .footer {
+        flex-direction: column; /* Colocar los elementos del footer uno encima del otro en pantallas pequeñas */
+        align-items: center; /* Centrar los elementos del footer */
+    }
+
+    .footer-section {
+        width: 100%; /* Ajustar el ancho de las secciones del footer al 100% en pantallas pequeñas */
+        max-width: none; /* Quitar el máximo ancho en pantallas pequeñas */
+    }
+}
