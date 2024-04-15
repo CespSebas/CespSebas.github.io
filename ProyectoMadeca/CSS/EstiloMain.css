@@ -232,10 +232,72 @@ main {
     /* ajusta la altura según tus necesidades */
     background-image: url('../Img/Gif/Got\ wood\ -\ Imgur.gif');
     background-size: cover;
-    /* ajusta según sea necesario */
     background-repeat: no-repeat;
-    /* asegúrate de que el gif no se repita */
     margin: auto;
+
+    
+@media screen and (max-width: 768px) {
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Header */
+    .header {
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .video-container{
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    
+    /* Menú */
+    .menu {
+        background-color: #592F20;
+        color: #fff;
+        padding: 10px;
+    }
+    
+    .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .menu li {
+        display: inline;
+        margin-right: 10px;
+    }
+    
+    .menu li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    /* Main Content */
+    .mainPrincipal {
+        padding: 20px;
+    }
+    
+    /* Offcanvas */
+    .offcanvas-body {
+        padding: 20px;
+    }
+    
+    /* Footer */
+    .footer {
+        background-color: #592F20;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
 
 }
 
