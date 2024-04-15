@@ -244,7 +244,7 @@ function displayCart() {
         productContainer.innerHTML += `
         <div class="basketTotalContainer">
             <h4 class="basketName">
-                Subtotal:
+                Totalidad:
                 ₡${cartCost}
             </h4>
         </div>    
