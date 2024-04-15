@@ -269,7 +269,7 @@ function actualizarCantidadEnCarrito(cantidad) {
 
 
 function payClicked() {
-    alert("Gracias por la compra, vuelve pronto");
+    alert("El pago se realizó exitosamente");
     //Elimino todos los elmentos del carrito
     var carritoItems = document.getElementsByClassName("productos")[0];
     while (carritoItems.hasChildNodes()) {
