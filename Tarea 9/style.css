@@ -39,7 +39,7 @@ body a:hover,body a:focus{
 } 
 /*-- banner --*/
 .agileits-banner {
-	background:url(../images/2.jpg)no-repeat center 0px;
+	background:url(../2.jpg)no-repeat center 0px;
 	-webkit-background-size:cover;
 	background-size:cover;
 	-moz-background-size:cover;
@@ -2003,7 +2003,7 @@ h3.title-w3l-2 {
 /*--//responsive--*/
 
 
-/*Formulario de cotización*/
+/*Formulario de cotizaciÃ³n*/
 
 .cotizador {
     width: 570px;
@@ -2131,4 +2131,4 @@ h3.title-w3l-2 {
     float:right;
 }
 
-/*FIN Formulario de cotización*/
+/*FIN Formulario de cotizaciÃ³n*/
