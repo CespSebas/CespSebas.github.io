@@ -1,0 +1,11 @@
+API CurrencyLayer
+	Api Key
+		b758c97bcd6b957565decc9b4f798252
+	Funcionalidades
+		Solicitud de Listas de Monedas
+			http://apilayer.net/api/list?access_key=b758c97bcd6b957565decc9b4f798252&format=1
+		Obtener Tipo de Cambio
+			http://apilayer.net/api/live?access_key=b758c97bcd6b957565decc9b4f798252&currencies=CRC&format=1
+	Dpocumentación completa del API
+		https://currencylayer.com/documentation
+
