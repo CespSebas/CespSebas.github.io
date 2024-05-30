@@ -93,6 +93,68 @@ hr {
 
     background: #800000;
 }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5B21D;
+    padding: 1em;
+    margin-top: 20px;
+}
+
+.navbar-logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1em;
+ 
+}
+
+.navbar-toggle {
+    display: none;
+    font-size: 1.5em;
+    color: #fff;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+  
+     
+}
+
+.dropdown-toggle::after {
+    content: '  ▼';
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #800000;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    color: #fff;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #F5B21D;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
 
 @media (max-width :768px) {
     /* Cuando tenga 768px o menos se aplica*/
@@ -102,6 +164,40 @@ hr {
         /* Aca tendra un diseño de 2 columnas*/
     }
 
+     .navbar-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-menu a {
+        margin: 0;
+        padding: 1em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+}
+
+.navbar-menu.open {
+    display: flex;
+    animation: slideDown 0.5s ease-in-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @media (max-width :460px) {
