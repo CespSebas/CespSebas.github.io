@@ -1,0 +1,243 @@
+html {
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(219, 201, 152);
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer a {
+    padding: 20px;
+}
+
+h2{
+    color: #800000;
+}
+
+
+h5{
+    font-weight: bold;
+}
+
+p{ 
+    font-size: 12px;
+     
+}
+
+.menu-restaurante p {
+    font-size: 14px;
+    line-height: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+
+.column-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.menu-restaurante {
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column;
+}
+
+hr {
+    background: #800000;
+    height: 3px;
+    width: 40px;
+    border: none;
+}
+
+.precio-menu {
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.precio-menu span {
+    font-size: 2rem;
+    color: #800000;
+    
+   
+}
+
+.en {
+    color: #800000;
+}
+
+.es {
+    color: #F5B21D;
+}
+
+.check {
+    position: relative;
+    width: 50px;
+}
+
+.check:before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background-color: #F5B21D;
+    border-radius: 25px;
+}
+
+.check:after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 25px;
+    transition: 0.25s;
+    border: 2px solid #F5B21D;
+    box-sizing: border-box;
+}
+
+.check:checked:after {
+    left: 25px;
+    border: 2px solid #800000;
+}
+
+.check:checked:before {
+
+    background: #800000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5B21D;
+    padding: 1em;
+    margin-top: 20px;
+}
+
+.navbar-logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1em;
+ 
+}
+
+.navbar-toggle {
+    display: none;
+    font-size: 1.5em;
+    color: #fff;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+  
+     
+}
+
+.dropdown-toggle::after {
+    content: '  ▼';
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #800000;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    color: #fff;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #F5B21D;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+ 
+
+
+@media (max-width :768px) {
+    /* Cuando tenga 768px o menos se aplica*/
+
+    .columns {
+        grid-template-columns: repeat(2, 1fr);
+        /* Aca tendra un diseño de 2 columnas*/
+    }
+
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-menu a {
+        margin: 0;
+        padding: 1em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+}
+
+.navbar-menu.open {
+    display: flex;
+    animation: slideDown 0.5s ease-in-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width :460px) {
+    /* Cuando tenga 460px o menos se aplica*/
+
+    .columns {
+        grid-template-columns: repeat(1, 1fr);
+        /* Aca tendra un diseño de 1 columnas*/
+    }
+
+}
