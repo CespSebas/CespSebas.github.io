@@ -14,6 +14,14 @@ function idioma() {
     }
 }
 
+  function mostrarAlerta() {
+            alert("¡Hola! Este es un mensaje de alerta.");
+        }
+
+        // Mostrar la alerta al cargar la página
+        window.onload = mostrarAlerta;
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const navbarToggle = document.getElementById('navbarToggle');
     const navbarMenu = document.getElementById('navbarMenu');
